@@ -1,4 +1,5 @@
 {
+  "website": "http://ZanezZephyrs.github.io/GraphSimulation",
   "name": "graph_site",
   "version": "0.1.0",
   "private": true,
@@ -10,9 +11,14 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.11",
+    "cytoscape": "^3.19.0",
+    "immutable": "^4.0.0-rc.14",
     "react": "^17.0.2",
+    "react-cytoscapejs": "^1.2.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -39,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/cytoscape": "^3.14.17",
+    "@types/react-cytoscapejs": "^1.2.2",
+    "gh-pages": "^3.2.3"
   }
 }
